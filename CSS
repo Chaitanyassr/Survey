@@ -1,0 +1,111 @@
+html, body {
+  background-color: #93a8;
+  font-family: cursive;
+  min-width: 420px;
+}
+
+h1 {
+  text-align: center;
+}
+input[type="text"], input[type="email"], input[type="number"], textarea {
+  background-color : white; 
+  padding: .8em;
+}
+select {
+  height: 2.5em;
+}
+.box {
+  width: 90%;
+  margin: auto;
+  background-color: #c5c8cc;
+  height: auto; 
+  text-align: center;
+  padding: 1em;
+  border-radius: 1%;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 70%;
+  vertical-align: auto;
+  margin-top: 12px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  left: 50px;
+  
+}
+.button-submit {
+  background: #85a832;
+  margin-top: 4em;
+  padding:8em;
+  font: bold 3px, cursive;
+}
+#userAge {
+  width: 30px;
+}
+
+.recommend,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+  .box {
+    height: 50em;
+  }
+  .dropdown{
+    height: 30px;
+  width: 150px;
+  padding: 6px;
+    
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  }
+  textarea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 120%;
+  }
+  .labels {
+    width: 99%;
+    text-align: left;
+    padding: 1em;
+    margin-left: -1em;
+  }
+  .rightTab {
+    width: 60%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+    border-radius:  10%;
+  }
+ 
+}
+  select {
+    height:1%;
+    width: 1%;
+  }
+}
+
