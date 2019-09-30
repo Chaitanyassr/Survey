@@ -1,0 +1,98 @@
+<head>
+  <title> Survey Form </title>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</head>
+<body>
+  
+  <header>
+    <h1 id="title">SURVEY</h1>
+  </header>
+  <section class="box">
+    <p id="description">Please fill the correct information below<p>
+    <form id="survey-form">
+    <div class="rowTab">  
+      <div class="labels">
+        <label for="name" id="name-label">*Name:</label>
+      </div> 
+      <div class="rightTab">
+        <input class="input-field" type="text" name="name" placeholder="Enter your own name" id="name" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="email" id="email-label">* Email:</label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+      </div>
+     </div>
+     <div class="rowTab">
+       <div class="labels">
+        <label for="age" id="number-label">* Age:</label>
+       </div>
+       <div class="rightTab">
+        <input id="number" type="number" class="input-field" required placeholder="Age" min="0" max="200">
+       </div>
+     <div class="rowTab">
+       <div class="labels">
+        <label for="role">Which anime you like the most?</label>
+       </div>
+       <div class="rightTab">  
+          <select id="dropdown" name="dropdown" class="dropdown">
+          <option disable selected value>Select</option>
+          <option value="cg">Code geass</option>
+          <option value="st">steins gate</option>
+          <option value="aot">attack on titan</option>
+            <option value="fd">future diary</option>
+            <option value="op">one Piece</option>
+            <option value="e">erased</option>
+          </select>
+       </div>
+             </div>
+      
+      
+    <div class="rowTab">
+      <div class="labels">
+        <label for="rating">Which type of anime you watch</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style-type: none">
+          <li class="radio"><label>Thriller<input type="radio" id="Thrillers" name="radio-button" value="1" class="userRatings">             </label></li>
+          <li class="radio"><label>Romance<input type="radio" id="Romancee" name="radio-button" value="2" class="userRatings"></label>               </li>
+          
+          <li class="radio"><label>Action & adventure<input type="radio" id="recommend-not-sure" name="radio-button" value="3" class="userRatings">                 </label></li>
+          <li class="radio"><label>Sci-fi<input type="radio" id="recommend-not-sure" name="radio-button" value="3" class="userRatings">                 </label></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+     <div class="labels">
+       <label for="rating">gener you want us to suggest for you:</label> 
+     </div>
+     <div class="rightTab">
+       <ul style="list-style: none;">
+        <li class="checkbox"><label><input type="checkbox" id="coding" name="interest" value="1">
+        adventure</label></li>
+        <li class="checkbox"><label><input type="checkbox" id="music" name="interest" value="2">
+        good ost</label></li>
+           
+        
+       </ul>
+     </div>
+   
+  <div class="rowTab">
+    <div class="labels">
+      <label>Any Suggestions?</label>
+    </div>
+    <div class="rightTab">
+      <textarea rows="4" cols="30" placeholder="Enter your suggestion here..."></textarea>
+    </div>
+  </div>
+  <input class="button-submit" type="submit" value="Submit" id="submit">
+  </form>
+  </section>
+ 
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
